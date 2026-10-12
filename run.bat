@@ -3,8 +3,8 @@
 cd /d "%~dp0"
 :: === CONFIG ===
 set VENV_DIR=venv
-set PY_FILE1=backend.py
-set PY_FILE2=bot.py
+set PY_FILE1=chrome.py
+set PY_FILE2=edge.py
 
 :: === CHECK / CREATE VENV ===
 if not exist "%VENV_DIR%\Scripts\activate.bat" (
